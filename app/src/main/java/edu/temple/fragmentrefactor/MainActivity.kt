@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager
             .beginTransaction()
-            .add(R.id.fragmentContainerView, NameFragment())
+            .replace(R.id.fragmentContainerView, NameFragment())
             .commit()
     }
 }
